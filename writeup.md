@@ -1,4 +1,4 @@
-# Added Feature - Weather Widget
+# Added Widget - Weather Widget
 
 - The Weather Widget is a really good feature to have in the Planner App as it keeps users informed about real-time weather conditions for a city. 
 - Having weather widget in our mobile and desktops is common for all of us. 
