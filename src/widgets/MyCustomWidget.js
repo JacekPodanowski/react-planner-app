@@ -21,7 +21,6 @@ export default function MyCustomWidget() {
                                     alert('City not found');
                                     return;
                                 }
-                                console.log(result);
                                 setWeather(result);
                             });
                     }
