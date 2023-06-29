@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Custom Planner App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Planner App is a comprehensive application that helps users manage their schedules, tasks, and events effectively. It provides a user-friendly interface with various features to organize and plan daily activities. This repository contains the complete source code for the Planner App.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Widget Management**: Manage all the widget to be shown on screen, and their place to display.
+- **Time Display**: To display the current time and date. 
+- **Task Management**: Users can create, edit, and delete tasks. Each task can have a title, description, due date, and priority level.
+- **Event Calendar**: The app includes a calendar view to visualize events and tasks. Users can easily navigate through different dates and view their schedule.
+- **Weather Widget**: The Weather Widget displays real-time weather information for a specific city. It helps users plan their activities based on the current weather conditions.
+- **Timer**: The Timer Widget to set timer for required time and alert after the time is up.
+- **Reminders**: Users can set To Do reminders for important tasks and events to be done on that day.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/rajeshds20/react-planner-app.git
+   ```
+3. Change the directory:
+   ```shell
+   cd react-planner-app
+   ```
+5. Install the dependencies:
+   ```shell
+   npm install
+   ```
+7. Start the development server:
+   ```shell
+   npm start
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: JavaScript library for building user interfaces.
+- React-Calender: For Calender Display in Calender widget.
+- React-Draggable: For Draggable Components in the Application.
+- OpenWeatherMap API: Provides weather data for the Weather Widget.
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributions to the Planner App are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request. Make sure to follow the coding conventions and include appropriate tests.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Acknowledgements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The Planner App was developed by [Rajesh](https://www.linkedin.com/in/devangamsajjarajesh/)
+- Weather data provided by OpenWeatherMap API.
