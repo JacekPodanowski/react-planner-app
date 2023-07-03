@@ -1,5 +1,6 @@
 # Added Widget - Weather Widget
 
+- MyWeatherWidget.js is my custom widget added in to the planner app.
 - The Weather Widget is a really good feature to have in the Planner App as it keeps users informed about real-time weather conditions for a city. 
 - Having weather widget in our mobile and desktops is common for all of us. 
 - Thus, having a weather widget in the Planner App can make a difference towards planning and organizing things, increasing the apps overall usage. 
